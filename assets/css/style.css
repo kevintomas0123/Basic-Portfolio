@@ -1,0 +1,357 @@
+
+body {
+    background-image: url("../images/japbg.png");
+ 
+  
+    
+}  
+
+    
+
+
+.name {
+    background: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px; 
+    text-align: center;
+    height: 50px;
+    width: 221px;
+    color:#4aaaa5;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #cccccc
+
+    
+    
+    
+}
+
+  #aboutme {   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+    display: block;
+    color:#4aaaa5;
+    border-bottom: grey 2px solid;
+    text-align: center;
+    margin-right:15px;
+    
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:17px;
+    color: #777777;
+    text-align:left;
+    line-height:2;
+    position: absolute;
+    left:335px;
+    bottom:60px;
+    top:370px;
+    
+    
+    
+     
+}
+
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#777777; font-size: 20px;
+    
+    
+
+}
+
+#about {
+    position: absolute;
+    right:450px;
+    top:30px;
+}
+
+#portfolio {
+    position: absolute;
+    right:300px;
+    top:30px;
+}
+
+#contact {
+    position: absolute;
+    right:160px;
+    top:30px;
+}
+
+header { 
+    background:#ffffff;
+    border-color: #cccccc;
+    border-style: solid;
+    padding-left: 10px;
+}
+
+
+
+
+div{
+
+ width: 960px;
+ height:800px;
+
+
+}
+
+#mainsection{
+    display: inline-block;
+    height:450px;
+    width:650px;
+    border:2px solid #777777;
+    background-color:#ffffff;
+    padding-left:20px;
+    padding-top:50px;
+    margin-left:100px;
+    margin-top:100px;
+    margin-bottom:200px;
+  
+    
+}
+
+#connect{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    color:#4aaaa5;
+    border-bottom: grey 2px solid;
+    text-align: center;
+    
+    
+}
+
+#sidebar{
+    display:block;
+    height:150px;
+    width:270px;
+    border:1px;
+    border:2px solid #777777;
+    background-color:#ffffff;
+    position: absolute;
+    left:900px;
+    top:300px;
+   }
+
+   #gmail{
+    height:60px;
+    width:60px;
+    position: absolute;
+    top: 60px;
+    left:10px;
+   }
+
+   #github{
+    height:60px;
+    width:60px;
+    position: absolute;
+    top: 60px;
+    left:100px;
+
+   }
+
+   #linkdin{
+    height:60px;
+    width:60px;
+    position: absolute;
+    top: 60px;
+    right:20px;
+
+    }
+   
+
+   #mainfooter{
+        position:fixed;
+        left: 0;
+        bottom:0;
+        width: 100%;
+        background-color:#666666;
+        color: white;
+        text-align: center;
+        height:50px;
+        border-top: #4aaaa5 solid 10px;    
+      
+             
+    }
+
+    .bigbox{
+        position: relative;
+        display:block;
+        height:810px;
+        width:650px;
+        background: #ffffff;
+        margin-left:100px;
+        margin-top:50px;
+        margin-bottom:100px;
+        border:2px solid #777777;
+      }
+
+      #contactme{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+    display: block;
+    color:#4aaaa5;
+    border-bottom: grey 2px solid;
+    text-align:left;
+  
+      }
+      input {
+          font-size: 15px;
+      }
+      label {
+          font-size:25px;
+      }
+
+      input[type=text]{
+        
+        width: 100%;
+        padding: 12px 20px;
+        margin: 25px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing:border-box;
+    }
+
+    input[type=email] {
+        width: 100%;
+        font-size: 15px;
+        padding: 12px 20px;
+        margin: 25px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    textarea[id=message]{
+        width: 100%;
+        height:400px;
+        padding: 12px 20px;
+        margin: 25px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+            position: absolute;
+            bottom:-8px;
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+    }
+
+
+
+     
+     
+
+     .dampa{
+         float:left;
+         margin-left: 20px;
+     }
+
+     .pdampa{
+         background-color: #4aaaa5;
+         color:#ffffff;
+         position: absolute;
+         top:210px;
+         left:20px;
+         display: inline-block;
+         width: 300px;
+         height:50px;
+         text-align: center;
+         font-size:20px;
+         
+     }
+
+     .nursing{
+         float:right;
+         margin-right:20px;
+     }
+
+     .pnursing{
+        background-color: #4aaaa5;
+        color:#ffffff;
+        position: absolute;
+        top:210px;
+        left:330px;
+        display: inline-block;
+        width: 300px;
+        height:50px;
+        text-align: center;
+        font-size:20px;
+        }
+
+        .callcenter{
+            clear: both;
+            float:left;
+            margin-left: 20px;
+            margin-top:20px;
+        }
+
+        .pcallcenter{
+            background-color: #4aaaa5;
+            color:#ffffff;
+            position: absolute;
+            top:435px;
+            left:20px;
+            display: inline-block;
+            width: 300px;
+            height:50px;
+            text-align: center;
+            font-size:20px;
+         
+        }
+
+        .anime{
+            float:right;
+            margin-right: 20px;
+            margin-top:20px; 
+        }
+
+        .panime{
+            background-color: #4aaaa5;
+            color:#ffffff;
+            position: absolute;
+            top:435px;
+            left:330px;
+            display: inline-block;
+            width: 300px;
+            height:50px;
+            text-align: center;
+            font-size:20px;
+        }
+
+        .muaythai{
+            clear: both;
+            float: left;
+            margin-top:20px;
+            margin-left:170px;
+
+        }
+
+        .pmuaythai{
+            background-color: #4aaaa5;
+            color:#ffffff;
+            position: absolute;
+            top:655px;
+            left:170px;
+            display: inline-block;
+            width: 300px;
+            height:50px;
+            text-align: center;
+            font-size:20px;
+        }
+
+       
+    
